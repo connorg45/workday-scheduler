@@ -67,3 +67,7 @@ body {
   .notification.show {
     display: block; /* Shown when the 'show' class is added */
   }
+
+  .time-block-info {
+    text-align: center;
+  }
