@@ -58,3 +58,12 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
+  .notification {
+    display: none;
+    padding-bottom: 10px;
+    color: black;
+  }
+
+  .notification.show {
+    display: block; /* Shown when the 'show' class is added */
+  }
